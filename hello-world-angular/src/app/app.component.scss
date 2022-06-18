@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:host {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  scroll-behavior: smooth;
+  color: #333;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  app-header,
+  app-footer {
+    background-color: #483c67b3;
+    color: #fcfcfc;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  app-header {
+    height: 20%;
+  }
+
+  app-footer {
+    height: 10%;
+  }
+}
