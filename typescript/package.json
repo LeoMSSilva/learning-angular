@@ -1,0 +1,11 @@
+{
+  "name": "Typescript",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsc && node ./exercises.js"
+  },
+  "keywords": [],
+  "author": "LeoMSSilva (https://github.com/LeoMSSilva)",
+  "license": "MIT"
+}
