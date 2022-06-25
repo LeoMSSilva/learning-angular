@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { EmployeesComponent } from './employees/employees.component';
+import { EmployeesComponent } from './components/employees/employees.component';
 
 
 
