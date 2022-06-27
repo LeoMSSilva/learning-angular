@@ -8,6 +8,7 @@ main {
     margin: 5rem 0 3rem;
     text-align: center;
     font-size: 2rem;
+    color: #483c67e6;
   }
 
   table {
@@ -20,8 +21,9 @@ main {
       tr {
         background-color: #483c67b3;
         th {
+          height: 3rem;
+          min-width: 3rem;
           width: 25%;
-          padding: 0.5rem;
           font-size: 1.25rem;
           font-weight: bold;
           text-transform: uppercase;
@@ -31,9 +33,20 @@ main {
     tbody {
       tr {
         td {
+          height: 3rem;
           width: 25%;
-          padding: 0.5rem;
+          padding: 0;
           font-size: 1rem;
+          figure {
+            height: inherit;
+            img {
+              height: inherit;
+            }
+          }
+        }
+        .bold {
+          font-weight: bold;
+          font-size: 1.1rem;
         }
         &:nth-child(odd) {
           background-color: #483c6780;
@@ -49,6 +62,5 @@ main {
         }
       }
     }
-    font-size: 1rem;
   }
 }
