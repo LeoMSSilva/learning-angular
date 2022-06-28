@@ -26,7 +26,8 @@
 
 # :house: About
 
-This repository contains the _activities_ and _projects_ developed during the **MJV School - Angular**.
+This project was created to study the angular framework in the bootcamp of **MJV School - Angular**.
+Contains building *modules*, *components* and a *custom directive*.
 
 ---
 
@@ -53,6 +54,10 @@ Or by ssh, running this command:
 ```
 
 SSH is a secure protocol, but you need to register a key ssh in your github before.
+
+```bash
+  cd hello-world-angular
+```
 
 ## :hammer_and_wrench: Install dependencies
 

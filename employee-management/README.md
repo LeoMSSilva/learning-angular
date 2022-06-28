@@ -1,27 +1,111 @@
-# EmployeeManagement
+<h1 align="center">Employee Management
+	<br/>
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+[![Author](https://img.shields.io/badge/author-LeoMSSilva-blue?style=flat-square)](https://github.com/LeoMSSilva)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)](https://github.com/LeoMSSilva)
+[![Languages](https://img.shields.io/github/languages/count/LeoMSSilva/learning-angular?color=blue&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/LeoMSSilva/learning-angular?color=blue&style=flat-square)](https://github.com/LeoMSSilva/learning-angular/stargazers)
+[![Forks](https://img.shields.io/github/forks/LeoMSSilva/learning-angular?color=blue&style=flat-square)](https://github.com/LeoMSSilva/learning-angular/network/members)
+[![Contributors](https://img.shields.io/github/contributors/LeoMSSilva/learning-angular?color=blue&style=flat-square)](https://github.com/LeoMSSilva/learning-angular/graphs/contributors)
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# :pushpin: Table of Contents
 
-## Code scaffolding
+- :house: [About](#house-about)
+- :dart: [Installation](#dart-installation)
+  - :gear: [Install dependencies](#hammer_and_wrench-install-dependencies)
+  - :rocket: [Getting started](#rocket-getting-started)
+- :computer: [Techs](#computer-techs)
+- :bust_in_silhouette: [Author](#bust_in_silhouette-author)
+- :handshake: [Contributing](#handshake-contributing)
+- :scroll: [License](#scroll-license)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+# :house: About
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+This project was created to study the angular framework in the bootcamp of **MJV School - Angular**.
+Contains building *modules*, *components*.
+It makes use of the *ngClass*, *ngIf*, *ngFor* directives.
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# :dart: Installation
 
-## Running end-to-end tests
+**First you need to install:**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [Node.js](https://pt-br.nodejs.org/) (required)
+- [Yarn](https://yarnpkg.com/) (required)
+- [Angular CLI](https://github.com/angular/angular-cli) (required)
 
-## Further help
+**Then in order, clone the project.**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+By HTTPS, running this command:
+
+```bash
+  git clone https://github.com/LeoMSSilva/learning-angular.git
+```
+
+Or by ssh, running this command:
+
+```bash
+  git clone git@github.com:LeoMSSilva/learning-angular.git
+```
+
+SSH is a secure protocol, but you need to register a key ssh in your github before.
+
+```bash
+  cd employee-management
+```
+
+## :hammer_and_wrench: Install dependencies
+
+```bash
+  yarn
+```
+
+or
+
+```bash
+  yarn install
+```
+
+## :rocket: Getting Started
+
+```bash
+  yarn start
+```
+
+---
+
+# :computer: Techs
+
+- Angular
+- JavaScript
+- NodeJs
+- Sass
+
+---
+
+# :bust_in_silhouette: Author
+
+**LeoMSSilva**
+
+- Github: [@LeoMSSilva](https://github.com/LeoMSSilva)
+- LinkedIn: [@LeoMSSilva](https://linkedin.com/in/LeoMSSilva)
+
+---
+
+# :handshake: Contributing
+
+Contributions, issues and feature requests are welcome! Feel free to **file a new issue** on the [Hello World Angular](https://github.com/LeoMSSilva/learning-angular/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**!
+
+---
+
+# :scroll: License
+
+Copyright :copyright: 2022 [LeoMSSilva](https://github.com/LeoMSSilva).
+<br/>
+This project is [MIT](https://github.com/LeoMSSilva/learning-angular/blob/main/LICENSE) licensed.

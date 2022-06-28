@@ -15,8 +15,6 @@
 
 - :house: [About](#house-about)
 - :dart: [Installation](#dart-installation)
-  - :gear: [Install dependencies](#hammer_and_wrench-install-dependencies)
-  - :rocket: [Getting started](#rocket-getting-started)
 - :computer: [Techs](#computer-techs)
 - :bust_in_silhouette: [Author](#bust_in_silhouette-author)
 - :handshake: [Contributing](#handshake-contributing)
@@ -53,24 +51,6 @@ Or by ssh, running this command:
 ```
 
 SSH is a secure protocol, but you need to register a key ssh in your github before.
-
-## :hammer_and_wrench: Install dependencies
-
-```bash
-  yarn
-```
-
-or
-
-```bash
-  yarn install
-```
-
-## :rocket: Getting Started
-
-```bash
-  yarn start
-```
 
 ---
 
