@@ -3,9 +3,10 @@ ul {
   display: flex;
   margin: 0;
   padding: 0;
+  height: 100%;
   li {
     border-left: 1px solid #fcfcfc;
-    width: 5rem;
+    width: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
