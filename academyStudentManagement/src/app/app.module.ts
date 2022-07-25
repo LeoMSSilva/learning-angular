@@ -1,4 +1,6 @@
-import { NgModule } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -8,6 +10,8 @@ import { HomeModule } from './features/home/home.module';
 import { LoginModule } from './features/login/login.module';
 import { RegisterModule } from './features/register/register.module';
 import { TasksModule } from './features/tasks/tasks.module';
+
+registerLocaleData(localePt);
 
 @NgModule({
   declarations: [
@@ -22,7 +26,12 @@ import { TasksModule } from './features/tasks/tasks.module';
     LoginModule,
     RegisterModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: LOCALE_ID,
+      useValue: 'pt-BR',
+    },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -12,11 +12,13 @@
     </thead>
     <tbody>
       <tr *ngFor="let e of employees" (click)="employeeSelect(e.id)">
-        <td [ngClass]="{ 'bold': employee === e.id }">{{ e.id }}</td>
-        <td [ngClass]="{ 'bold': employee === e.id }">{{ e.name }}</td>
-        <td [ngClass]="{ 'bold': employee === e.id }">{{ e.wage }}</td>
-        <td [ngClass]="{ 'bold': employee === e.id }">{{ e.office }}</td>
-        <td [ngClass]="{ 'bold': employee === e.id }">
+        <td [ngClass]="{ bold: employee === e.id }">{{ e.id }}</td>
+        <td [ngClass]="{ bold: employee === e.id }">{{ e.name }}</td>
+        <td [ngClass]="{ bold: employee === e.id }">
+          {{ e.wage | currency: "BRL" }}
+        </td>
+        <td [ngClass]="{ bold: employee === e.id }">{{ e.office }}</td>
+        <td [ngClass]="{ bold: employee === e.id }">
           <figure *ngIf="employee === e.id">
             <img
               src="{{ e.photo }}"
