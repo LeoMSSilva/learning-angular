@@ -1,0 +1,33 @@
+:host {
+  background-color: #483c67b3;
+  color: #fcfcfc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    li {
+      border-left: 1px solid #fcfcfc;
+      width: 10rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.25rem 1rem;
+      font-size: 1rem;
+      font-weight: bold;
+      &:hover {
+        background-color: #483c67e6;
+        padding: 1.05rem 1rem;
+        font-size: 1.2rem;
+      }
+    }
+    li:last-child {
+      border-right: 1px solid #fcfcfc;
+    }
+  }
+}

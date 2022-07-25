@@ -1,0 +1,23 @@
+:host {
+  background-color: #483c67b3;
+  color: #fcfcfc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  p {
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+    a {
+      font-weight: 700;
+      &:hover {
+        color: #483c67e6;
+        font-weight: 900;
+      }
+    }
+  }
+}
