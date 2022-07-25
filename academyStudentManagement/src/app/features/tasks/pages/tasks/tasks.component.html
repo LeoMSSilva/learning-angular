@@ -1,3 +1,22 @@
 <app-header></app-header>
-<p>tasks works!</p>
+<main>
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Exercício</th>
+        <th>Data do treino</th>
+        <th>Completo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let t of tasks">
+        <td>{{ t.id }}</td>
+        <td>{{ t.description }}</td>
+        <td>{{ t.inclusionDate | date:'shortDate' }}</td>
+        <td>{{ t.completed ? "Completo" : "Incompleto" }}</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
 <app-footer></app-footer>

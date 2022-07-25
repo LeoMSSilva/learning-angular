@@ -1,0 +1,60 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  table {
+    margin-top: 10%;
+    width: 100%;
+    max-width: 960px;
+    border-collapse: collapse;
+    text-align: center;
+    color: #fcfcfc;
+    thead {
+      tr {
+        background-color: #483c67b3;
+        th {
+          height: 3rem;
+          min-width: 3rem;
+          width: 23%;
+          font-size: 1.25rem;
+          font-weight: bold;
+          text-transform: uppercase;
+          &:first-child{
+            width: 8%;
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          height: 3rem;
+          width: 23%;
+          padding: 0;
+          font-size: 1rem;
+          &:first-child{
+            width: 8%;
+          }
+        }
+        .bold {
+          font-weight: bold;
+          font-size: 1.1rem;
+        }
+        &:nth-child(odd) {
+          background-color: #483c6780;
+        }
+        &:nth-child(even) {
+          background-color: #483c6799;
+        }
+        &:hover {
+          background-color: #483c67e6;
+          td{
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

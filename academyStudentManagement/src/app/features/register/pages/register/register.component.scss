@@ -1,0 +1,52 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  form {
+    margin-top: 10%;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    .error {
+      font-size: 0.9em;
+      color: #ff4949;
+      font-weight: 500;
+      font-style: italic;
+    }
+    label {
+      width: 100%;
+      color: #483c67e6;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      border: 0.15rem solid #483c67e6;
+      font-size: 1em;
+      margin: 0.75rem 0 1.75rem;
+      &[type="submit"] {
+        background-color: #483c67e6;
+        color: #fcfcfc;
+        font-size: 1.1em;
+        &:hover {
+          opacity: 0.9;
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+  p {
+    width: 600px;
+    color: #483c67e6;
+    font-size: 1em;
+    font-weight: 400;
+    a {
+      font-weight: 500;
+      font-style: italic;
+    }
+  }
+}
