@@ -13,7 +13,7 @@
       <tr *ngFor="let t of tasks">
         <td>{{ t.id }}</td>
         <td>{{ t.description }}</td>
-        <td>{{ t.inclusionDate | date:'shortDate' }}</td>
+        <td>{{ t.inclusionDate | date: "shortDate" }}</td>
         <td>{{ t.completed ? "Completo" : "Incompleto" }}</td>
       </tr>
     </tbody>
