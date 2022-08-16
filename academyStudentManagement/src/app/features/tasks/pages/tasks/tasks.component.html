@@ -1,5 +1,20 @@
 <app-header></app-header>
 <main>
+  <div class="search">
+    <input
+      required
+      type="text"
+      placeholder="Digite o exercício"
+      id="descriptionSelected"
+      name="descriptionSelected"
+      [(ngModel)]="taskSelected"
+      (change)="filterRow()"
+    />
+    <button type="submit" (click)="filterRow()">
+      <i class="fa fa-search"></i>
+    </button>
+  </div>
+  <p class="error" *ngIf="error">Exercício não encontrado!</p>
   <table>
     <thead>
       <tr>
@@ -11,10 +26,18 @@
     </thead>
     <tbody>
       <tr *ngFor="let t of tasks">
-        <td>{{ t.id }}</td>
-        <td>{{ t.description }}</td>
-        <td>{{ t.inclusionDate | date: "shortDate" }}</td>
-        <td>{{ t.completed ? "Completo" : "Incompleto" }}</td>
+        <td *ngIf="!filter || taskSelected === t.description">
+          {{ t.id }}
+        </td>
+        <td *ngIf="!filter || taskSelected === t.description">
+          {{ t.description }}
+        </td>
+        <td *ngIf="!filter || taskSelected === t.description">
+          {{ t.inclusionDate | date: "shortDate" }}
+        </td>
+        <td *ngIf="!filter || taskSelected === t.description">
+          {{ t.completed ? "Completo" : "Incompleto" }}
+        </td>
       </tr>
     </tbody>
   </table>

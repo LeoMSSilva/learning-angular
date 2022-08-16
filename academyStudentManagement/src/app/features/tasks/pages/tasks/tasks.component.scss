@@ -4,8 +4,49 @@ main {
   justify-content: center;
   align-items: center;
 
+  .search {
+    margin-top: 5%;
+    width: 100%;
+    height: 2.5rem;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: 0.15rem solid #483c67e6;
+    color: #483c67e6;
+    input,
+    button {
+      width: 95%;
+      height: 100%;
+      padding: 0.5rem;
+      font-size: 1em;
+      border: none;
+      background-color: inherit;
+      color: inherit;
+    }
+    input {
+      width: 95%;
+    }
+    button {
+      width: 5%;
+      &:hover {
+        opacity: 0.9;
+        font-size: 1.2em;
+      }
+    }
+  }
+  .error {
+    margin-top: 1rem;
+    font-size: 1.2em;
+    color: #ff4949;
+    font-weight: 500;
+    font-style: italic;
+  }
+
   table {
-    margin-top: 10%;
+    margin-top: 2rem;
     width: 100%;
     max-width: 960px;
     border-collapse: collapse;

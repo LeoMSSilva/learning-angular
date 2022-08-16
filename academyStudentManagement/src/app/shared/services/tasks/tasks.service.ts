@@ -59,4 +59,8 @@ export class TasksService {
   getTaskById(id: number) {
     return this.tasks.find((task) => task.id === id);
   }
+
+  getTaskByName(description: string) {
+    return this.tasks.find((task) => task.description === description);
+  }
 }

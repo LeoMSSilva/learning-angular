@@ -8,8 +8,20 @@ import { ITasks } from '../../models/Tasks';
 })
 export class TasksComponent implements OnInit {
   tasks: ITasks[] = this.tasksService.getTasks();
-
+  taskSelected?: string;
+  filter = false;
+  error = false;
   constructor(private tasksService: TasksService) {}
 
   ngOnInit(): void {}
+
+  filterRow(): void {
+    if (this.taskSelected) {
+      const result = this.tasksService.getTaskByName(this.taskSelected);
+      this.error = result === undefined ? true : false;
+      this.filter = true;
+    } else {
+      this.filter = false;
+    }
+  }
 }
