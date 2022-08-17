@@ -1,7 +1,6 @@
 <app-header></app-header>
 <main>
-  <form action="" method="post">
-    <p class="error" *ngIf="errorUsername">O campo não deve estar vazio!</p>
+  <form action="" method="post" [formGroup]="formRegister">
     <label for="username">Usuário:</label>
     <input
       type="text"
@@ -9,10 +8,27 @@
       id="username"
       name="username"
       required
-      [(ngModel)]="username"
+      formControlName="username"
     />
+    <p
+      class="error"
+      *ngIf="formRegister.controls.username.errors?.['required']"
+    >
+      O campo não deve estar vazio!
+    </p>
+    <p
+      class="error"
+      *ngIf="formRegister.controls.username.errors?.['maxlength']"
+    >
+      Deve ter o tamanho máximo de 20 caracteres!
+    </p>
+    <p
+      class="error"
+      *ngIf="formRegister.controls.username.errors?.['minlength']"
+    >
+      Deve ter o tamanho mínimo de 3 caracteres!
+    </p>
 
-    <p class="error" *ngIf="errorPassword">O campo não deve estar vazio!</p>
     <label for="password">Senha:</label>
     <input
       type="password"
@@ -20,10 +36,33 @@
       id="password"
       name="password"
       required
-      [(ngModel)]="password"
+      formControlName="password"
     />
+    <p
+      class="error"
+      *ngIf="formRegister.controls.password.errors?.['required']"
+    >
+      O campo não deve estar vazio!
+    </p>
+    <p
+      class="error"
+      *ngIf="formRegister.controls.password.errors?.['maxlength']"
+    >
+      Deve ter o tamanho máximo de 20 caracteres!
+    </p>
+    <p
+      class="error"
+      *ngIf="formRegister.controls.password.errors?.['minlength']"
+    >
+      Deve ter o tamanho mínimo de 3 caracteres!
+    </p>
 
-    <input type="submit" value="CADASTRAR" (click)="authenticate()" />
+    <input
+      type="submit"
+      value="CADASTRAR"
+      [disabled]="formRegister.invalid"
+      (click)="authenticate()"
+    />
   </form>
   <p>Já possui cadastro? <a [routerLink]="['/login']">Acesse sua conta</a></p>
 </main>

@@ -26,15 +26,25 @@ main {
       padding: 0.5rem;
       border-radius: 0.5rem;
       border: 0.15rem solid #483c67e6;
-      font-size: 1.0em;
+      font-size: 1em;
       margin: 0.75rem 0 1.75rem;
       &[type="submit"] {
         background-color: #483c67e6;
         color: #fcfcfc;
         font-size: 1.1em;
-        &:hover{
+        height: 3rem;
+        cursor: pointer;
+        &:hover {
           opacity: 0.9;
           font-size: 1.2em;
+        }
+        &:disabled {
+          opacity: 0.7;
+          cursor: auto;
+          &:hover {
+            opacity: 0.7;
+            font-size: 1.1em;
+          }
         }
       }
     }
@@ -44,7 +54,7 @@ main {
     color: #483c67e6;
     font-size: 1em;
     font-weight: 400;
-    a{
+    a {
       font-weight: 500;
       font-style: italic;
     }
