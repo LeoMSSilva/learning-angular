@@ -27,24 +27,20 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  emptyUsername() {
+  validateUsername() {
     this.errorUsername = this.formRegister.controls.username.errors
       ? true
       : false;
   }
 
-  emptyPassword() {
+  validatePassword() {
     this.errorPassword = this.formRegister.controls.password.errors
       ? true
       : false;
   }
 
   authenticate() {
-    this.emptyUsername();
-    this.emptyPassword();
-    !this.errorUsername &&
-      !this.errorPassword &&
-      this.formRegister.value.username &&
+    this.formRegister.value.username &&
       this.formRegister.value.password &&
       this.userService.signUp(
         this.formRegister.value.username,

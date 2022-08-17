@@ -11,25 +11,26 @@ export class LoginComponent implements OnInit {
   errorUsername: boolean = false;
   errorPassword: boolean = false;
   errorUser: boolean = false;
-  
+
   constructor(private userService: UsersService) {}
 
   ngOnInit(): void {}
 
-  emptyUsername() {
-    this.errorUsername = this.username === '' ? true : false;
+  disabled() {
+    return this.username.length < 3 || this.password.length < 3;
   }
 
-  emptyPassword() {
-    this.errorPassword = this.password === '' ? true : false;
+  validateUsername() {
+    this.errorUsername = this.username.length < 3 ? true : false;
+  }
+
+  validatePassword() {
+    this.errorPassword = this.password.length < 3 ? true : false;
   }
 
   authenticate() {
-    this.emptyUsername();
-    this.emptyPassword();
     const isAuthorized = this.userService.signIn(this.username, this.password);
-    this.errorUser =
-      !this.errorUsername && !this.errorPassword && !isAuthorized;
+    this.errorUser = !isAuthorized;
     isAuthorized &&
       sessionStorage.setItem('user', JSON.stringify(isAuthorized));
   }

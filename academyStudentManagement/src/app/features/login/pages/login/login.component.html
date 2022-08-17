@@ -1,7 +1,6 @@
 <app-header></app-header>
 <main>
   <form action="" method="post">
-    <p class="error" *ngIf="errorUsername">O campo não deve estar vazio!</p>
     <label for="username">Usuário:</label>
     <input
       type="text"
@@ -9,9 +8,12 @@
       name="username"
       required
       [(ngModel)]="username"
+      (focus)="errorUsername = false"
+      (input)="errorUser = false"
+      (blur)="validateUsername()"
     />
+    <p class="error" *ngIf="errorUsername">O campo não deve estar vazio!</p>
 
-    <p class="error" *ngIf="errorPassword">O campo não deve estar vazio!</p>
     <label for="password">Senha:</label>
     <input
       type="password"
@@ -19,13 +21,22 @@
       name="password"
       required
       [(ngModel)]="password"
+      (focus)="errorPassword = false"
+      (input)="errorUser = false"
+      (blur)="validatePassword()"
     />
+    <p class="error" *ngIf="errorPassword">O campo não deve estar vazio!</p>
 
     <p class="error" *ngIf="errorUser">Usuário não cadastrado!</p>
-    <input type="submit" value="ENTRAR" (click)="authenticate()" />
+    <input
+      type="submit"
+      value="ENTRAR"
+      [disabled]="disabled()"
+      (click)="authenticate()"
+    />
   </form>
   <p>
-    Não possui cadastro ainda? <a [routerLink]="['/register']">Cadastra-se</a>
+    Não possui cadastro ainda? <a [routerLink]="['/register']">Cadastre-se</a>
   </p>
 </main>
 <app-footer></app-footer>

@@ -9,22 +9,24 @@
       name="username"
       required
       formControlName="username"
+      (focus)="errorUsername = false"
+      (blur)="validateUsername()"
     />
     <p
       class="error"
-      *ngIf="formRegister.controls.username.errors?.['required']"
+      *ngIf="errorUsername && formRegister.controls.username.errors?.['required']"
     >
       O campo não deve estar vazio!
     </p>
     <p
       class="error"
-      *ngIf="formRegister.controls.username.errors?.['maxlength']"
+      *ngIf="errorUsername && formRegister.controls.username.errors?.['maxlength']"
     >
       Deve ter o tamanho máximo de 20 caracteres!
     </p>
     <p
       class="error"
-      *ngIf="formRegister.controls.username.errors?.['minlength']"
+      *ngIf="errorUsername && formRegister.controls.username.errors?.['minlength']"
     >
       Deve ter o tamanho mínimo de 3 caracteres!
     </p>
@@ -37,22 +39,24 @@
       name="password"
       required
       formControlName="password"
+      (focus)="errorPassword = false"
+      (blur)="validatePassword()"
     />
     <p
       class="error"
-      *ngIf="formRegister.controls.password.errors?.['required']"
+      *ngIf="errorPassword && formRegister.controls.password.errors?.['required']"
     >
       O campo não deve estar vazio!
     </p>
     <p
       class="error"
-      *ngIf="formRegister.controls.password.errors?.['maxlength']"
+      *ngIf="errorPassword && formRegister.controls.password.errors?.['maxlength']"
     >
       Deve ter o tamanho máximo de 20 caracteres!
     </p>
     <p
       class="error"
-      *ngIf="formRegister.controls.password.errors?.['minlength']"
+      *ngIf="errorPassword && formRegister.controls.password.errors?.['minlength']"
     >
       Deve ter o tamanho mínimo de 3 caracteres!
     </p>
