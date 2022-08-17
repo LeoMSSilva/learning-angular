@@ -1,5 +1,6 @@
 <ul>
-  <li [routerLink]="['/home']">Início</li>
-  <li [routerLink]="['/tasks']">Exercícios</li>
-  <li [routerLink]="['/login']">Entrar</li>
+  <li [routerLink]="['/home']" *ngIf="user">Início</li>
+  <li [routerLink]="['/tasks']" *ngIf="user">Exercícios</li>
+  <li [routerLink]="['/login']" *ngIf="!user">Entrar</li>
+  <li [routerLink]="['/login']" *ngIf="user" (click)="signOut()">Sair</li>
 </ul>

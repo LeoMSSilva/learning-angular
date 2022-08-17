@@ -1,17 +1,30 @@
 <app-header></app-header>
 <main>
   <form action="" method="post">
-    <p class="error" *ngIf="">O campo não deve estar vazio!</p>
+    <p class="error" *ngIf="errorUsername">O campo não deve estar vazio!</p>
     <label for="username">Usuário:</label>
-    <input type="text" placeholder="Digite seu usuário" id="username" name="username" required />
+    <input
+      type="text"
+      placeholder="Digite seu usuário"
+      id="username"
+      name="username"
+      required
+      [(ngModel)]="username"
+    />
 
-    <p class="error" *ngIf="">O campo não deve estar vazio!</p>
+    <p class="error" *ngIf="errorPassword">O campo não deve estar vazio!</p>
     <label for="password">Senha:</label>
-    <input type="password" placeholder="Digite sua senha" id="password" name="password" required />
+    <input
+      type="password"
+      placeholder="Digite sua senha"
+      id="password"
+      name="password"
+      required
+      [(ngModel)]="password"
+    />
 
-    <input type="submit" value="CADASTRAR" />
+    <input type="submit" value="CADASTRAR" (click)="authenticate()" />
   </form>
   <p>Já possui cadastro? <a [routerLink]="['/login']">Acesse sua conta</a></p>
-
 </main>
 <app-footer></app-footer>
