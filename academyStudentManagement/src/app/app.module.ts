@@ -10,6 +10,7 @@ import { HomeModule } from './features/home/home.module';
 import { LoginModule } from './features/login/login.module';
 import { RegisterModule } from './features/register/register.module';
 import { TasksModule } from './features/tasks/tasks.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 registerLocaleData(localePt);
 
@@ -24,7 +25,8 @@ registerLocaleData(localePt);
     TasksModule,
     HomeModule,
     LoginModule,
-    RegisterModule
+    RegisterModule,
+    BrowserAnimationsModule
   ],
   providers: [
     {
