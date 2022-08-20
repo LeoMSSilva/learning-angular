@@ -1,0 +1,50 @@
+:host {
+  width: 70vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 6rem;
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+
+    [aria-label="Select an option"] {
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-width: 25rem;
+      max-width: 35rem;
+      margin-left: 3rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .new-todo-form {
+    display: flex;
+    align-items: center;
+
+    * {
+      margin-left: 3rem;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+
+    button {
+      height: 3.5rem;
+      width: 10.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+}

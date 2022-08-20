@@ -1,0 +1,36 @@
+<mat-spinner
+  *ngIf="todoState.loading; else loaded"
+  diameter="24"
+  color="primary"
+>
+</mat-spinner>
+
+<ng-template #loaded>
+  <div *ngIf="todoState.todo; else notFound">
+    <div class="row">
+      <h1>{{ todoState.todo.title }}</h1>
+      <div class="buttons">
+        <button mat-icon-button (click)="onTodoToggled(todoState.todo)">
+          <mat-icon>
+            {{
+              todoState.todo.isCompleted
+                ? "check_box"
+                : "check_box_outline_blank"
+            }}
+          </mat-icon>
+        </button>
+        
+        <button mat-icon-button (click)="onTodoToggledFavorite(todoState.todo)">
+          <mat-icon>
+            {{ todoState.todo.isFavorited ? "favorite" : "favorite_border" }}
+          </mat-icon>
+        </button>
+      </div>
+    </div>
+    <h2>{{ todoState.todo.description }}</h2>
+  </div>
+</ng-template>
+
+<ng-template #notFound>
+  <h1>Tarefa não encontrada</h1>
+</ng-template>
