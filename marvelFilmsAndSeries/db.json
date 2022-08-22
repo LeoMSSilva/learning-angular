@@ -1,0 +1,319 @@
+{
+  "marvels": [
+    {
+      "id": 1,
+      "type": "Filme",
+      "title": "Capitão América: O Primeiro Vingador",
+      "releaseYear": "2011",
+      "happensInTheYear": "1943",
+      "description": "O filme acompanha o início da trajetória de Steve Rogers como Capitão América. As cenas finais, contudo, se passam em 2011, após o herói passar 66 anos congelado.",
+      "image": "https://s.aficionados.com.br/imagens/capitao-america-o-primeiro-vingador_cke.jpg"
+    },
+    {
+      "id": 2,
+      "type": "Filme",
+      "title": "Capitã Marvel",
+      "releaseYear": "2019",
+      "happensInTheYear": "1995",
+      "description": "Embora tenha sido lançado em 2019, á próximo à finalização da Saga do Infinito, Capitã Marvel se passa em 1995, e mostra como Carol Danvers se tornou a heroína que inspirou Nick Fury a criar a Iniciativa Vingadores.",
+      "image": "https://s.aficionados.com.br/imagens/capita-marvel-32_cke.jpg"
+    },
+    {
+      "id": 3,
+      "type":"Filme",
+      "title": "O Incrível Hulk",
+      "releaseYear": "2008",
+      "happensInTheYear": "2005",
+      "description": "O filme narra o início da trajetória de Bruce Banner como Hulk, mostrando o momento em que o cientista se transformou. Mais para o final do filme, o período em que a história se passa é o mesmo que alguns dos acontecimentos do primeiro Homem de Ferro. Isso fica claro quando Tony Stark aparece na cena pós-créditos do longa.",
+      "image": "https://s.aficionados.com.br/imagens/o-incrivel-hulk_cke.jpg"
+    },
+    {
+      "id": 4,
+      "type":"Filme",
+      "title": "Homem de Ferro",
+      "releaseYear": "2008",
+      "happensInTheYear": "2009",
+      "description": "O filme mostra o momento em que Tony Stark se torna o Homem de Ferro, primeiro herói a ser convidado por Nick Fury para a iniciativa Vingadores. (A Capitã Marvel inspirou a criação do projeto, mas nunca recebeu um convite oficial de Fury. O Capitão América foi o segundo a ser convidado, após acordar em 2011).",
+      "image": "https://s.aficionados.com.br/imagens/homem-de-ferro-10_cke.jpg"
+    },
+    {
+      "id": 5,
+      "type":"Filme",
+      "title": "Homem de Ferro 2",
+      "releaseYear": "2010",
+      "happensInTheYear": "2011",
+      "description": "Tony Stark precisa enfrentar a pressão do governo americano para que entregue sua armadura, enquanto o cientista russo Ivan Vanko usa a mesma tecnologia para criar armas.",
+      "image": "https://s.aficionados.com.br/imagens/homem-de-ferro-2-1.jpg"
+    },
+    {
+      "id": 6,
+      "type":"Filme",
+      "title": "Thor",
+      "releaseYear": "2011",
+      "happensInTheYear": "2011",
+      "description": "No mesmo ano em que os eventos de Homem de Ferro 2 se passavam, Thor chegava à Terra. O príncipe de Asgard tenta voltar a ser digno do Mjöllnir para impedir que seu irmão Loki tome o trono.",
+      "image": "https://s.aficionados.com.br/imagens/thor-1_cke.jpg"
+    },
+    {
+      "id": 7,
+      "type":"Filme",
+      "title": "Os Vingadores",
+      "releaseYear": "2012",
+      "happensInTheYear": "2012",
+      "description": "O filme reúne pela primeira vez o seis Vingadores originais: Homem de Ferro, Capitão América, Viúva Negra, Thor, Hulk e Gavião Arqueiro. O time precisa enfrentar a invasão de Loki à Terra.",
+      "image": "https://s.aficionados.com.br/imagens/os-vingadores-1_cke.jpg"
+    },
+    {
+      "id": 8,
+      "type":"Filme",
+      "title": "Homem de Ferro 3",
+      "releaseYear": "2013",
+      "happensInTheYear": "2012",
+      "description": "Este filme trouxe o Homem de Ferro combatendo um falso Mandarim. Também foi a primeira produção na qual Pepper Potts assume a identidade heroica de Resgate, usando uma armadura similar à de Tony.",
+      "image": "https://s.aficionados.com.br/imagens/homem-de-ferro-3-0_cke.jpg"
+    },
+    {
+      "id": 9,
+      "type":"Filme",
+      "title": "Thor: O Mundo Sombrio",
+      "releaseYear": "2013",
+      "happensInTheYear": "2013",
+      "description": "A trama deste filme acontece pouco depois dos acontecimentos de Vingadores. Loki é condenado à prisão perpétua por Odin, por seus atos na Batalha de Nova York. Thor descobre que um poderoso elemento chamado Éter entrou em Jane Foster. Ele precisa salvá-la e combater o vilão Malekith.",
+      "image": "https://s.aficionados.com.br/imagens/thor-o-mundo-sombrio_cke.jpg"
+    },
+    {
+      "id": 10,
+      "type":"Filme",
+      "title": "Capitão América: O Soldado Invernal",
+      "releaseYear": "2014",
+      "happensInTheYear": "2014",
+      "description": "Dois anos apos a Batalha de Nova York, em Vingadores, Steve Rogers segue trabalhando na S.H.I.E.L.D. ao lado de Natasha Romanoff, a Viúva Negra, sob o comando de Nick Fury. Esta é a primeira produção a abordar a corrupção dentro da S.H.I.E.L.D., que vem sendo controlada pela temida organização Hidra. Neste contexto, Steve Rogers ainda descobre que seu melhor amigo Bucky Barnes está vivo, mas foi sofreu lavagem cerebral e foi transformado no Soldado Invernal.",
+      "image": "https://s.aficionados.com.br/imagens/capitao-america-o-soldado-invernal_cke.jpg"
+    },
+    {
+      "id": 11,
+      "type":"Filme",
+      "title": "Guardiões da Galáxia",
+      "releaseYear": "2014",
+      "happensInTheYear": "2014",
+      "description": "O filme que apresentou os Guardiões da Galáxia ao MCU também foi a primeira produção a explicar a existência e a importância das Joias do Infinito. As joias já tinham sido vistas antes em filmes como Capitão América: O Primeiro Vingador (Joia do Espaço, no Tesseract), Vingadores (Joia da Mente, no cetro de Loki), Thor: Mundo Sombrio (Joia da Realidade, dentro de Jane Foster), entre outras produções pela quais as Joias foram passando. Guardiões da Galáxia revela a origem das Joias e apresenta a Joia do Espaço.",
+      "image": "https://s.aficionados.com.br/imagens/guardioes-da-galaxia-4_cke.jpg"
+    },
+    {
+      "id": 12,
+      "type":"Filme",
+      "title": "Guardiões da Galáxia Vol. 2",
+      "releaseYear": "2017",
+      "happensInTheYear": "2014",
+      "description": "Seguindo os acontecimentos de guardiões da Galáxia, este segundo filme mostra Peter Quill conhecendo seu verdadeiro pai, o Celestial Ego. O grupo se une para combater Ego ao descobrir suas reais intenções.",
+      "image": "https://s.aficionados.com.br/imagens/guardioes-da-galaxia-vol-2_cke.jpg"
+    },
+    {
+      "id": 13,
+      "type":"Filme",
+      "title": "Vingadores: Era de Ultron",
+      "releaseYear": "2015",
+      "happensInTheYear": "2015",
+      "description": "Tony Stark e Bruce Banner secretamente dão vida a uma inteligência artificial que encontraram dentro do cetro de Loki. Ultron, como foi chamado, contudo toma como missão destruir a raça humana. Como resposta, a dupla se une novamente e traz J.A.R.V.I.S à vida, que assume o nome de Visão e luta ao lado dos Vingadores no combate a Ultron.",
+      "image": "https://s.aficionados.com.br/imagens/vingadores-era-de-ultron_cke.jpg"
+    },
+    {
+      "id": 14,
+      "type":"Filme",
+      "title": "Homem-Formiga",
+      "releaseYear": "2015",
+      "happensInTheYear": "2015",
+      "description": "Este filme nos apresentou a duas gerações de Homem-Formiga: Hank Pym e Scoot Lang. Além disso, começou a introduzir as noções de Reino Quântico no MCU.",
+      "image": "https://s.aficionados.com.br/imagens/homem-formiga-0_cke.jpg"
+    },
+    {
+      "id": 15,
+      "type":"Filme",
+      "title": "Capitão América: Guerra Civil",
+      "releaseYear": "2016",
+      "happensInTheYear": "2016",
+      "description": "Após discordarem sobre o controle governamental que o Tratado de Sokovia propunha para os Vingadores, o time se separa em dois. O reaparecimento do Soldado Invernal e as tentativas de Steve de protegê-lo alimentam o conflito entre os heróis.",
+      "image": "https://s.aficionados.com.br/imagens/capitao-america-guerra-civil-1_cke.jpg"
+    },
+    {
+      "id": 16,
+      "type":"Filme",
+      "title": "Pantera Negra",
+      "releaseYear": "2018",
+      "happensInTheYear": "2016",
+      "description": "Pantera Negra nos apresentou a Wakanda, nação africana secreta que avançou em termos de tecnologia como uso de Vibranium, e lar das Dora Milaje e do Pantera Negra. Com a trama acontecendo logo após os eventos de Capitão América: Guerra Civil, vemos o caminho de T-Challa para assumir o trono de Wakanda.",
+      "image": "https://s.aficionados.com.br/imagens/pantera-negra-11_cke.jpg"
+    },
+    {
+      "id": 17,
+      "type":"Filme",
+      "title": "Homem-Aranha: De Volta ao Lar",
+      "releaseYear": "2017",
+      "happensInTheYear": "2016",
+      "description": "O primeiro filme do Homem-Aranha no MCU se passa pouco depois dos dos acontecimentos de Capitão América: Guerra Civil, contando inclusive com cenas de quando o herói participou do conflito. O longa ainda teve a participação do Homem de Ferro.",
+      "image": "https://s.aficionados.com.br/imagens/homem-aranha-de-volta-ao-lar-0_cke.jpg"
+    },
+    {
+      "id": 18,
+      "type":"Filme",
+      "title": "Viúva Negra",
+      "releaseYear": "2021",
+      "happensInTheYear": "2016",
+      "description": "A trama deste filme se passa depois dos acontecimentos de Capitão América: Guerra Civil e antes da trama de Vingadores: Guerra Infinita. Neste período, Natasha retorna ao leste europeu para tentar novamente derrubar a organização Sala Vermelha.",
+      "image": "https://s.aficionados.com.br/imagens/viuva-negra-13_cke.jpg"
+    },
+    {
+      "id": 19,
+      "type":"Filme",
+      "title": "Doutor Estranho",
+      "releaseYear": "2016",
+      "happensInTheYear": "2016",
+      "description": "O filme acompanha a trajetória de Stephen Strange para se tornar o Doutor Estranho. A trama já introduziu um pouco da noção de outras dimensões. Desde então, o personagem já apareceu em filmes como Thor: Ragnarok, Vingadores: Infinita e Vingadores: Ultimato. O Doutor Estranho também já está confirmado para Homem-Aranha: Sem Volta para Casa (2021), além de ganhar um segundo filme, Doutor Estranho no Multiverso da Loucura, em 2022.",
+      "image": "https://s.aficionados.com.br/imagens/doutor-estranho-10_cke.jpg"
+    },
+    {
+      "id": 20,
+      "type":"Filme",
+      "title": "Thor: Ragnarok",
+      "releaseYear": "2017",
+      "happensInTheYear": "2017",
+      "description": "Dois anos após a Batalha de Sokovia (Vingadores: Era de Ultron), Thor ainda está em busca das Joias do Infinito, mas precisa tentar impedir o Ragnarok em Asgard.",
+      "image": "https://s.aficionados.com.br/imagens/thor-ragnarok-6_cke.jpg"
+    },
+    {
+      "id": 21,
+      "type":"Filme",
+      "title": "Vingadores: Guerra Infinita",
+      "releaseYear": "2018",
+      "happensInTheYear": "2018",
+      "description": "Início da grande conclusão da Saga do Infinito, este filme reuniu quase todos os heróis apresentados no MCU até então. As consequências do sucesso de Thanos em dizimar metade do universo foram abordadas em várias das produções seguintes.",
+      "image": "https://s.aficionados.com.br/imagens/vingadores-guerra-infinita-0_cke.jpg"
+    },
+    {
+      "id": 22,
+      "type":"Filme",
+      "title": "Homem-Formiga e a Vespa",
+      "releaseYear": "2018",
+      "happensInTheYear": "2018",
+      "description": "Homem-Formiga e a Vespa trouxe a explicação de porque o Homem-Formiga não estava em Vingadores: Guerra Infinita: as tramas se passam quase ao mesmo tempo. Além disso, Scott ainda seguia em seus últimos dias de prisão domiciliar por seus atos na Guerra Civil.",
+      "image": "https://s.aficionados.com.br/imagens/homem-formiga-e-a-vespa_cke.jpg"
+    },
+    {
+      "id": 23,
+      "type":"Filme",
+      "title": "Vingadores: Ultimato",
+      "releaseYear": "2019",
+      "happensInTheYear": "2018",
+      "description": "O filme que concluiu a Saga do Infinito trouxe os Vingadores descobrindo uma forma de viajar no tempo, abordando ainda a criação de diferentes linhas do tempo. O final do longa marcou ainda a conclusão para importantes personagens e a batalha final contra Thanos.",
+      "image": "https://s.aficionados.com.br/imagens/vingadores-ultimato-35_cke.jpg"
+    },
+    {
+      "id": 24,
+      "type":"Série",
+      "title": "Loki",
+      "releaseYear": "2021",
+      "happensInTheYear": "2018",
+      "description": "A série solo de Loki começa a partir do momento que ele desaparece com o Tesseract em 2012, em uma das viagens no tempo que os Vingadores fazem em Vingadores: Ultimato. Esta é uma variante de Loki. Durante os episódios, ele descobre o que ele fez, as mortes que provocou e o que aconteceu com ele na linha do tempo original (Terra-616), mas também descobre a existência de outras variantes.\nComo o personagem está na organização responsável por manter a integridade da linha do tempo sagrada, ele está em uma espécie de \"limbo temporal\", no qual pode ter acesso a quaisquer eras. Contudo, em termos de ordem cronológica, os eventos da série se passam depois do que acontece em Vingadores: Ultimato.",
+      "image": "https://s.aficionados.com.br/imagens/loki-disney_cke.jpg"
+    },
+    {
+      "id": 25,
+      "type":"Série",
+      "title": "What If...?",
+      "releaseYear": "2021",
+      "happensInTheYear": "1940",
+      "description": "Após a criação do multiverso, em Loki, acompanhamos em What If...? algumas das várias realidades e linhas do tempo alternativas. Peggy Carter como a super soldado Capitã Carter, T'Challa como um saqueador parte dos Guardiões da Galáxia, uma versão do Doutor Estranho que perdeu o uso de seu coração, e Thor como filho único foram algumas das realidades expostas nos episódios.\nNos episódios finais da primeira temporada (e já há uma segunda confirmada), vemos os inesperados heróis formar temporariamente o grupo Guardiões do Multiverso. Os integrantes Capitã Carter, Doutor Estranho Supremo, Viúva Negra, T'Challa Senhor das Estrelas, Thor e Killmonger. Vale destacar que o presidente da Marvel Studios, Kevin Feige, já sugeriu que podem haver planos de trazer algum desses personagens para os filmes live-action.\nPeríodo de tempo em que se passam em cada realidade alternativa\nSuper Soldado Peggy Carter: 1940s - 2011\nT'Challa Saqueador: 1988 - 2008\nVingadores assassinados: 2010\nDoutor Estranho do mal: Antes do século 20 - 2016 - 2018\nApocalipse Zombie: 2018\nKillmonger salva Tony Stark: 2009\nThor filho único: 2010\nVitória de Ultron: 2015",
+      "image": "https://s.aficionados.com.br/imagens/what-if-1_cke.jpg"
+    },
+    {
+      "id": 26,
+      "type":"Série",
+      "title": "WandaVision",
+      "releaseYear": "2021",
+      "happensInTheYear": "2023",
+      "description": "A trama de WandaVision se passa alguns dias após os acontecimentos de Vingadores: Ultimato. Em meio ao luto de perder Visão, Wanda cria um mundo próprio, mas acaba descobrindo uma nova dimensão de seus poderes e as consequências de seus atos.",
+      "image": "https://s.aficionados.com.br/imagens/wandavision-4_cke.jpg"
+    },
+    {
+      "id": 27,
+      "type":"Filme",
+      "title": "Shang-Chi e a Lenda dos Dez Anéis",
+      "releaseYear": "2021",
+      "happensInTheYear": "2023",
+      "description": "O primeiro filme solo de um herói asiático da Marvel chegou mostrando um pouco do que a Fase 4 do universo cinematográfico do estúdio se propõe a trazer. Novos personagens, representatividade e o devido respeito cultural são alguns pontos a se destacar em Shang-Chi e a Lenda dos Dez Anéis. O longa acompanha Shang-Chi, um jovem chinês filho do líder de uma das organizações criminais mais poderosas.\nEmbora tenha tentado fugir de seu passado para ter uma vida normal, Shang-Chi acaba retornando à China após ser atacado por integrantes da Dez Anéis. Agora ele precisa descobrir os objetivos por trás da organização e de sua família, e o que e quem eles põem em risco.",
+      "image": "https://s.aficionados.com.br/imagens/shang-chi-4_cke.jpg"
+    },
+    {
+      "id": 28,
+      "type":"Série",
+      "title": "Falcão e Soldado Invernal",
+      "releaseYear": "2021",
+      "happensInTheYear": "2024",
+      "description": "A trama de Falcão e Soldado Invernal se passa 6 meses após os acontecimentos de Vingadores: Ultimato e aborda abertamente as consequências da dizimação de Thanos pelo mundo. A série ainda nos apresenta a importantes personagens que devemos ver no futuro no MCU, como o Agente Americano, John Walker. Nos episódios, vemos Sam lidando com a escolha de se tornar ou não o primeiro Capitão América negro. Lutando ao seu lado, Bucky ainda lida com os fantasmas do passado e a ausência de Steve.",
+      "image": "https://s.aficionados.com.br/imagens/falcao-e-soldado-invernal_cke.jpg"
+    },
+    {
+      "id": 29,
+      "type":"Filme",
+      "title": "Eternos",
+      "releaseYear": "2021",
+      "happensInTheYear": "2023",
+      "description": "Criados pelas lendárias criaturas conhecidas como Celestiais, os Eternos foram enviados à Terra para proteger a humanidade dos ataques dos perigosos Deviantes. Após o desaparecimento dos Deviantes, o grupo se manteve no planeta, compartilhando conhecimentos, tecnologias e protegendo os humanos durante milhares de anos. Com a ordem apenas de nunca intervir em outros conflitos dos humanos que não envolvem os Deviantes, os Eternos aguardaram novas orientações dos Celestiais.\nNa atualidade, os Deviantes misteriosamente retornam, e um deles é capaz de absorver os poderes dos Eternos que consegue matar. Agora o grupo precisa se reunir e descobrir o que está por trás desse retorno.",
+      "image": "https://s.aficionados.com.br/imagens/eternals-2_cke.jpg"
+    },
+    {
+      "id": 30,
+      "type":"Filme",
+      "title": "Homem-Aranha: Longe de Casa",
+      "releaseYear": "2019",
+      "happensInTheYear": "2024",
+      "description": "Embora tenha sido a primeira produção lançada após Vingadores: Ultimato, Homem-Aranha: Longe de Casa se passa 8 meses após os acontecimentos do último filme dos Vingadores. Enquanto lida com a morte do Homem de Ferro e com o peso de sua responsabilidade, Peter acaba precisando salvar a Europa de um novo inimigo.",
+      "image": "https://s.aficionados.com.br/imagens/homem-aranha-longe-de-casa-0_cke.jpg"
+    },
+    {
+      "id": 31,
+      "type":"Filme",
+      "title": "Homem-Aranha: Sem Volta para Casa",
+      "releaseYear": "2021",
+      "happensInTheYear": "2024",
+      "description": "A identidade de Peter Parker foi exposta ao mundo e ele ainda foi acusado do assassinato de Mysterio. Além de isso prejudicar a credibilidade de Peter, o futuro de seus amigos também está em risco. Desesperado, ele pede a ajuda do Doutor Estranho para realizar um feitiço que faria com que todos esquecessem sua identidade. O feitiço dá errado e acaba mexendo com o multiverso.\nAgora, vilões que também sabiam da identidade dos Peters Parkers de seus diferentes universos acabam sendo transportados para o universo do Homem-Aranha do MCU. Peter precisa encontrar uma forma de enviar todos os vilões de volta aos seus universos.",
+      "image": "https://s.aficionados.com.br/imagens/spider-man-no-way-home-1-1_cke.jpg"
+    },
+    {
+      "id": 32,
+      "type":"Série",
+      "title": "Gavião Arqueiro",
+      "releaseYear": "2021",
+      "happensInTheYear": "2024",
+      "description": "A série apresenta a jovem arqueira Kate Bishop. Kate perdeu seu pai durante a Batalha de Nova York, em 2012, mas cresceu tendo como ídolo o Gavião Arqueiro, por tê-lo visto em ação na ocasião. Para surpresa de Kate, sua mãe está prestes a se casar com um homem suspeito. Ao tentar investigá-lo, ela acaba se envolvendo com grupos criminosos que buscavam pelo Ronin.\nAo saber disso, Clint Barton tenta ajudar a garota, mas as coisas vão se complicando cada vez mais. Barton está sendo caçado por pessoas que querem vingança pelos atos do Ronin, mas há mais gente por trás disso do que eles poderiam pensar.",
+      "image": "https://s.aficionados.com.br/imagens/hawkeye-3_cke.jpg"
+    },
+    {
+      "id": 33,
+      "type":"Série",
+      "title": "Cavaleiro da Lua",
+      "releaseYear": "2022",
+      "happensInTheYear": "2025",
+      "description": "A série nos apresenta a Marc Spector, um homem que sofre de Transtorno Dissociativo de Personalidade. A produção, inclusive, tem início com uma das outras personalidades do herói, o tímido Steve Grant. Logo Steve não apenas percebe a existência de Marc e si mesmo, como descobre que eles são o avatar do deus egípcio Konshu.\nPara dificultar ainda mais a situação, eles estão sendo perseguido por Arthur Harrow, antigo avatar de Konshu e atual avatar da deusa Ammit. Seu objetivo é libertar a deusa para que ela julgue o mundo por seus pecados, mesmo aqueles que sequer foram cometidos ainda.",
+      "image": "https://s.aficionados.com.br/imagens/moon-knight_cke.jpg"
+    },
+    {
+      "id": 34,
+      "type":"Filme",
+      "title": "Doutor Estranho no Multiverso da Loucura",
+      "releaseYear": "2022",
+      "happensInTheYear": "2025",
+      "description": "A jovem America Chavez tem o incrível poder de viajar pelo multiverso por meio de portais em forma de estrela. Mas um demônio está tentando roubar os poderes da garota. Enquanto variantes do Doutor Estranho pelo multiverso preferem matar America a deixar que seu poder seja roubado, o Doutor Estranho da Terra-616 (universo original do MCU) decide que a prioridade é protegê-la.\nLogo no início do filme é revelada a identidade do suposta demônio: Wanda Maximoff. Corrompida pelo uso do livro Darkhold e desesperada para viajar a um universo no qual seus filhos existam, a Feiticeira Escarlate não vai medir esforços para roubar os poderes de America. Ainda que isso custe a vida da menina e de quem ficar no seu caminho nesta luta que passará por diferentes universos.",
+      "image": "https://s.aficionados.com.br/imagens/doctor-strange-2_cke.jpg"
+    },
+    {
+      "id": 35,
+      "type":"Filme",
+      "title": "Thor: Amor e Trovão",
+      "releaseYear": "2022",
+      "happensInTheYear": "2025",
+      "description": "Depois de tantas perdas e batalhas, Thor agora busca paz interior e que se distanciar de novos conflitos. Um novo inimigo, contudo, interrompe seu momento zen e coloca todos em risco. Por motivos misteriosos, o assassino galáctico Gorr, o Carniceiro dos Deuses, busca vingança e quer matar todos os deuses. Para descobrir o que há por trás de sua sede de vingança e tentar combatê-lo, Thor conta com a ajuda de Valkiria e, inesperadamente, de sua ex-namorada Jane Foster. E para surpresa de todos, Jane é a nova detentora dos direitos e dos poderes do martelo Mjolnir, identificando-se como Poderosa Thor.",
+      "image": "https://s.aficionados.com.br/imagens/thor-poster-0_cke.jpg"
+    }
+  ]
+}
