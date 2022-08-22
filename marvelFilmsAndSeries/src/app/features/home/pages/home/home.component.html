@@ -1,1 +1,12 @@
-<h1>Marvels</h1>
+<div class="title">
+  <h1>{{ title | lowercase}}</h1>
+</div>
+<div class="timeline">
+  <div class="timeline-item" *ngFor="let marvel of marvels">
+    <button (click)="navigateDetails(marvel.id)">
+      [{{ marvel.type | uppercase }}] {{ marvel.title }}
+    </button>
+    <div class="lineRow"></div>
+  </div>
+  <div class="lineCol"></div>
+</div>

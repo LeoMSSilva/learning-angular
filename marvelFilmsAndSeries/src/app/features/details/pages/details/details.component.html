@@ -1,2 +1,16 @@
-<app-button-go-back></app-button-go-back>
-<p>details works!</p>
+<div class="card" id="{{ marvel.id }}">
+  <div class="row">
+    <app-button-go-back></app-button-go-back>
+    <h1 class="title">[{{ marvel.type }}] {{ marvel.title }}</h1>
+  </div>
+  <img src="{{ marvel.image }}" />
+  <p class="date">
+    <strong> Ano de lançamento: </strong>
+    {{ marvel.releaseYear }}
+  </p>
+  <p class="date">
+    <strong> Ano em que a história acontece: </strong>
+    {{ marvel.happensInTheYear }}
+  </p>
+  <p class="description">{{ marvel.description }}</p>
+</div>
