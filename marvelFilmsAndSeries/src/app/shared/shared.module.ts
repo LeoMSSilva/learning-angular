@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ButtonGoBackComponent } from './components/button-go-back/button-go-back.component';
+import { HttpClientModule } from '@angular/common/http';
 
 export const sharedComponents = [
   HeaderComponent,
@@ -13,6 +14,7 @@ export const sharedComponents = [
 
 export const sharedModules = [
   CommonModule,
+  HttpClientModule,
   RouterModule
 ];
 

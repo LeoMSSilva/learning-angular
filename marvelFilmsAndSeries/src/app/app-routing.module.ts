@@ -4,8 +4,18 @@ import { DetailsComponent } from './features/details/pages/details/details.compo
 import { HomeComponent } from './features/home/pages/home/home.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'details/:id', component: DetailsComponent },
+  {
+    path: '',
+    component: HomeComponent,
+    loadChildren: () =>
+      import('./features/home/home.module').then((m) => m.HomeModule),
+  },
+  {
+    path: 'details/:id',
+    component: DetailsComponent,
+    loadChildren: () =>
+      import('./features/details/details.module').then((m) => m.DetailsModule),
+  },
 ];
 
 @NgModule({
