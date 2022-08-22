@@ -1,1 +1,70 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --white: #ffffff;
+  --red: #ec1d24;
+  --blue: #313df4;
+  --black: #000000;
+  --header: #202020;
+  --footer: #151515;
+  --backgroundList: #e6242a;
+  --backgroundListActived: var(--blue);
+  --gradientMainOne: #202020f5;
+  --gradientMainTwo: #151515f5;
+  --main: linear-gradient(var(--gradientMainOne), var(--gradientMainTwo));
+  --gradientTitleOne: #16377f;
+  --gradientTitleTwo: #2858c7;
+  --gradientTitleThree: #4aa6f1;
+  --gradientTitleFour: #3a98ea;
+  --title: linear-gradient(
+    var(--gradientTitleOne),
+    var(--gradientTitleTwo),
+    var(--gradientTitleThree),
+    var(--gradientTitleFour)
+  );
+  --gradientFooterOne: #e6edf5;
+  --gradientFooterTwo: #b0b8ba;
+  --gradientFooterThree: #474b54;
+  --gradientFooterFour: #0f121b;
+  --textFooter: linear-gradient(
+    var(--gradientFooterFour),
+    var(--gradientFooterThree),
+    var(--gradientFooterTwo),
+    var(--gradientFooterOne),
+    var(--gradientFooterTwo),
+    var(--gradientFooterThree),
+    var(--gradientFooterFour)
+  );
+}
+
+@font-face {
+  font-family: "Avengers";
+  src: url("./assets/avengers.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
