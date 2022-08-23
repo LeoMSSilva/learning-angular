@@ -26,9 +26,17 @@
 
 # :house: About
 
-This project was created to study the angular framework in the bootcamp of **MJV School - Angular**.
-Contains building *modules*, *components*.
-It makes use of the *ngClass*, *ngIf*, *ngFor* directives.
+This repository contains the _activities_ and _projects_ developed during the **MJV School - Angular**.
+
+This project deals with employee management.
+
+**Typescript** was the programming language used throughout the project.
+
+**Sass** was used for styles.
+
+**Angular Components** and **Angular Modules** were explored for better project organization and division of responsibilities.
+
+Used **Angular Directives**, **Angular Event Binding** and **Angular Pipes** to compose the communication between the visual part and the logical part.
 
 ---
 
@@ -56,9 +64,7 @@ Or by ssh, running this command:
 
 SSH is a secure protocol, but you need to register a key ssh in your github before.
 
-```bash
-  cd employee-management
-```
+---
 
 ## :hammer_and_wrench: Install dependencies
 
@@ -78,14 +84,18 @@ or
   yarn start
 ```
 
----
-
 # :computer: Techs
 
 - Angular
+- Angular Components
+- Angular Directives
+- Angular Event Binding
+- Angular Modules
+- Angular Pipes
 - JavaScript
 - NodeJs
 - Sass
+- TypeScript
 
 ---
 
@@ -100,7 +110,7 @@ or
 
 # :handshake: Contributing
 
-Contributions, issues and feature requests are welcome! Feel free to **file a new issue** on the [Hello World Angular](https://github.com/LeoMSSilva/learning-angular/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**!
+Contributions, issues and feature requests are welcome! Feel free to **file a new issue** on the [Learning Angular](https://github.com/LeoMSSilva/learning-angular/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**!
 
 ---
 

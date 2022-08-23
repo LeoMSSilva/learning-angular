@@ -1,4 +1,4 @@
-<h1 align="center">Academy Student Management
+<h1 align="center">Architectural Pattern
 	<br/>
 </h1>
 
@@ -28,20 +28,23 @@
 
 This repository contains the _activities_ and _projects_ developed during the **MJV School - Angular**.
 
-This project deals with the management of students at the academy.
+Contains exercises with ***observables***, ***http***, and ***architectural components***.
 
 **Typescript** was the programming language used throughout the project.
 
-**Sass** was used for styles.
+**Sass** and **Angular Material** were used for styles.
 
 **Angular Components** and **Angular Modules** were explored for better project organization and division of responsibilities along with the use of **Angular Services**, **Angular Router** routing.
 
 Used **Angular Directives**, **Angular Event Binding** and **Angular Pipes** to compose the communication between the visual part and the logical part.
 
-**Angular Guards** was used to ensure routing integrity.
-
 **Angular React** Forms* was used for the forms.
 
+**Angular HTTP** Client*, along with **RxJs** for http requests.
+
+**Json Server** was used to simulate an api.
+
+**UUID** was used to generate the ids.
 
 ---
 
@@ -85,6 +88,13 @@ or
 
 ## :rocket: Getting Started
 
+*First run the following to augment the API:*
+
+```bash
+  yarn server
+```
+*After starting the API, run the following command to start the application:*
+
 ```bash
   yarn start
 ```
@@ -95,16 +105,20 @@ or
 - Angular Components
 - Angular Directives
 - Angular Event Binding
-- Angular Guards
+- Angular HTTP Client
+- Angular Material UI
 - Angular Modules
 - Angular Pipes
 - Angular React Forms
 - Angular Router
 - Angular Services
 - JavaScript
+- Json Server
 - NodeJs
+- RxJs
 - Sass
 - TypeScript
+- UUID
 
 ---
 

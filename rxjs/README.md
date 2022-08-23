@@ -1,34 +1,114 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">RxJs Exercises
+	<br/>
+</h1>
 
-## Getting Started
+[![Author](https://img.shields.io/badge/author-LeoMSSilva-blue?style=flat-square)](https://github.com/LeoMSSilva)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)](https://github.com/LeoMSSilva)
+[![Languages](https://img.shields.io/github/languages/count/LeoMSSilva/learning-angular?color=blue&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/LeoMSSilva/learning-angular?color=blue&style=flat-square)](https://github.com/LeoMSSilva/learning-angular/stargazers)
+[![Forks](https://img.shields.io/github/forks/LeoMSSilva/learning-angular?color=blue&style=flat-square)](https://github.com/LeoMSSilva/learning-angular/network/members)
+[![Contributors](https://img.shields.io/github/contributors/LeoMSSilva/learning-angular?color=blue&style=flat-square)](https://github.com/LeoMSSilva/learning-angular/graphs/contributors)
 
-First, run the development server:
+---
+
+# :pushpin: Table of Contents
+
+- :house: [About](#house-about)
+- :dart: [Installation](#dart-installation)
+  - :gear: [Install dependencies](#hammer_and_wrench-install-dependencies)
+  - :rocket: [Getting started](#rocket-getting-started)
+- :computer: [Techs](#computer-techs)
+- :bust_in_silhouette: [Author](#bust_in_silhouette-author)
+- :handshake: [Contributing](#handshake-contributing)
+- :scroll: [License](#scroll-license)
+
+---
+
+# :house: About
+
+This repository contains the _activities_ and _projects_ developed during the **MJV School - Angular**.
+
+**Typescript** was the programming language used throughout the project.
+
+Contains **RxJs** exercises.
+
+**NextJs** was used with **ReactJs** to visually demonstrate the behavior of **RxJs**.
+
+---
+
+# :dart: Installation
+
+**First you need to install:**
+
+- [Node.js](https://pt-br.nodejs.org/) (required)
+- [Yarn](https://yarnpkg.com/) (required)
+- [Angular CLI](https://github.com/angular/angular-cli) (required)
+
+**Then in order, clone the project.**
+
+By HTTPS, running this command:
 
 ```bash
-npm run dev
-# or
-yarn dev
+  git clone https://github.com/LeoMSSilva/learning-angular.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Or by ssh, running this command:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+  git clone git@github.com:LeoMSSilva/learning-angular.git
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+SSH is a secure protocol, but you need to register a key ssh in your github before.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-## Learn More
+## :hammer_and_wrench: Install dependencies
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  yarn
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+or
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+  yarn install
+```
 
-## Deploy on Vercel
+## :rocket: Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+  yarn dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# :computer: Techs
+
+- Css
+- JavaScript
+- Lodash
+- NextJs
+- ReactJs
+- RxJs
+- TypeScript
+
+---
+
+# :bust_in_silhouette: Author
+
+**LeoMSSilva**
+
+- Github: [@LeoMSSilva](https://github.com/LeoMSSilva)
+- LinkedIn: [@LeoMSSilva](https://linkedin.com/in/LeoMSSilva)
+
+---
+
+# :handshake: Contributing
+
+Contributions, issues and feature requests are welcome! Feel free to **file a new issue** on the [Learning Angular](https://github.com/LeoMSSilva/learning-angular/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**!
+
+---
+
+# :scroll: License
+
+Copyright :copyright: 2022 [LeoMSSilva](https://github.com/LeoMSSilva).
+<br/>
+This project is [MIT](https://github.com/LeoMSSilva/learning-angular/blob/main/LICENSE) licensed.

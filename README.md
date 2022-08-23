@@ -15,6 +15,8 @@
 
 - :house: [About](#house-about)
 - :dart: [Installation](#dart-installation)
+  - :gear: [Install dependencies](#hammer_and_wrench-install-dependencies)
+  - :rocket: [Getting started](#rocket-getting-started)
 - :computer: [Techs](#computer-techs)
 - :bust_in_silhouette: [Author](#bust_in_silhouette-author)
 - :handshake: [Contributing](#handshake-contributing)
@@ -25,6 +27,26 @@
 # :house: About
 
 This repository contains the _activities_ and _projects_ developed during the **MJV School - Angular**.
+
+**Typescript** was the programming language used throughout the project.
+
+**Sass** and **Angular Material** were used for styles.
+
+**Angular Components** and **Angular Modules** were explored for better project organization and division of responsibilities along with the use of **Angular Services**, **Angular Router** routing.
+
+Used **Angular Directives**, **Angular Event Binding** and **Angular Pipes** to compose the communication between the visual part and the logical part.
+
+**Angular Guards** was used to ensure routing integrity.
+
+**Angular React** Forms* was used for the forms.
+
+**Angular HTTP** Client*, along with **RxJs** for http requests.
+
+**Json Server** was used to simulate an api.
+
+**UUID** was used to generate the ids.
+
+In some of them **NextJs** was used with **ReactJs** to visually demonstrate the behavior of **RxJs**.
 
 ---
 
@@ -54,12 +76,48 @@ SSH is a secure protocol, but you need to register a key ssh in your github befo
 
 ---
 
+## :hammer_and_wrench: Install dependencies
+
+```bash
+  yarn
+```
+
+or
+
+```bash
+  yarn install
+```
+
+## :rocket: Getting Started
+
+```bash
+  yarn start
+```
+
 # :computer: Techs
 
 - Angular
+- Angular Components
+- Angular Directives
+- Angular Event Binding
+- Angular Guards
+- Angular HTTP Client
+- Angular Material UI
+- Angular Modules
+- Angular Pipes
+- Angular React Forms
+- Angular Router
+- Angular Services
 - JavaScript
+- Json Server
+- Lodash
+- NextJs
 - NodeJs
+- ReactJs
+- RxJs
 - Sass
+- TypeScript
+- UUID
 
 ---
 
