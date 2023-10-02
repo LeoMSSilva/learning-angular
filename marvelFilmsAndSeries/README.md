@@ -49,7 +49,7 @@ Used **Angular Directives**, **Angular Event Binding** and **Angular Pipes** to 
 **First you need to install:**
 
 - [Node.js](https://pt-br.nodejs.org/) (required)
-- [Yarn](https://yarnpkg.com/) (required)
+- [Pnpm](https://pnpm.io/pt/) (required)
 - [Angular CLI](https://github.com/angular/angular-cli) (required)
 
 **Then in order, clone the project.**
@@ -73,13 +73,7 @@ SSH is a secure protocol, but you need to register a key ssh in your github befo
 ## :hammer_and_wrench: Install dependencies
 
 ```bash
-  yarn
-```
-
-or
-
-```bash
-  yarn install
+  pnpm install
 ```
 
 ## :rocket: Getting Started
@@ -87,12 +81,12 @@ or
 *First run the following to augment the API:*
 
 ```bash
-  yarn server
+  pnpm run server
 ```
 *After starting the API, run the following command to start the application:*
 
 ```bash
-  yarn start
+  pnpm start
 ```
 
 # :computer: Techs
